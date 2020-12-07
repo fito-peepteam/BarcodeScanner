@@ -69,6 +69,14 @@
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
+		B072850B257E476A00BEDBFA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B0728508257E440500BEDBFA /* BarcodeScannerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		B0ECE5D9257E2E70009CB1F3 = {
 			isa = PBXGroup;
 			children = (
@@ -88,14 +96,14 @@
 		B0ECE5E4257E2E70009CB1F3 /* BarCodeScanner */ = {
 			isa = PBXGroup;
 			children = (
-				B0ECE5E5257E2E70009CB1F3 /* BarCodeScannerApp.swift */,
-				B07284FF257E3CAF00BEDBFA /* Views */,
-				B0728503257E3CBA00BEDBFA /* View Controllers */,
-				B0728501257E3CB300BEDBFA /* Utils */,
-				B0ECE5E9257E2E71009CB1F3 /* Assets.xcassets */,
 				B0ECE5EE257E2E71009CB1F3 /* Info.plist */,
+				B0ECE5E5257E2E70009CB1F3 /* BarCodeScannerApp.swift */,
+				B0ECE5E9257E2E71009CB1F3 /* Assets.xcassets */,
 				B0ECE5EB257E2E71009CB1F3 /* Preview Content */,
-				B0728508257E440500BEDBFA /* BarcodeScannerViewModel.swift */,
+				B0728501257E3CB300BEDBFA /* Utils */,
+				B0728503257E3CBA00BEDBFA /* View Controllers */,
+				B072850B257E476A00BEDBFA /* ViewModel */,
+				B07284FF257E3CAF00BEDBFA /* Views */,
 			);
 			path = BarCodeScanner;
 			sourceTree = "<group>";
